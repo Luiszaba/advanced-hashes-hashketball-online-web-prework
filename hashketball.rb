@@ -186,7 +186,8 @@ def player_numbers(teams)
     end
   end
     
-def big_shoe_rebounds(shoe_size)    
+def big_shoe_rebounds()
+  if game_hash[:home].value? ()
     
     
     

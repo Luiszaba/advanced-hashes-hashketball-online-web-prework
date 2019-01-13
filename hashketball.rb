@@ -162,8 +162,4 @@ end
 def team_colors(jersey_colors)
   if game_hash[:home][:colors].include?(jersey_colors)
     game_hash[:home][:colors][jersey_colors]
-    elsif
-    game_hash[:away][:colors].include?(jersey_colors)
-    game_hash[:away][:colors][jersey_colors]
-  end
 end

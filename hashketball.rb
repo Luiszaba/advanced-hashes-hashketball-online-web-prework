@@ -183,7 +183,7 @@ def player_numbers(teams)
         stats.values.first
       end
     end
-    
+  end
     
     
     

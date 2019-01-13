@@ -190,6 +190,7 @@ def player_stats(all_stats)
   game_hash[:home][:players].each do |stats|
   stats.values  
 end
+end
     
     
     

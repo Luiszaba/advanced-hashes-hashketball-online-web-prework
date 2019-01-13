@@ -147,7 +147,7 @@ def num_points_scored(all_scorers)
   elsif 
   game_hash[:away][:players].include?(all_scorers)
   game_hash[:away][:players][all_scorers][:points]
-end
+  end
 end
 
 def shoe_size(players_shoe_size)
@@ -156,5 +156,14 @@ def shoe_size(players_shoe_size)
   elsif 
   game_hash[:away][:players].include?(players_shoe_size)
   game_hash[:away][:players][players_shoe_size][:shoe]
+  end
 end
+
+def team_colors(jersey_colors)
+  if game_hash[:home][:colors].include?(jersey_colors)
+    game_hash[:home][:colors][jersey_colors]
+    elsif
+    game_hash[:away][:colors].include?(jersey_colors)
+    game_hash[:away][:colors][jersey_colors]
+  end
 end

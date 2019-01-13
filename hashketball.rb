@@ -174,9 +174,7 @@ teams
 end
 
 def player_numbers(jersey_numbers)
-  brookln_numbers = [game_hash[:home][:players][:number]]
-  charlotte_numbers = [game_hash[:away][:players][:number]]
-  jersey_numbers = [brookln_numbers], [charlotte_numbers]
+  jersey_numbers = [game_hash[:home][:players][:number], game_hash[:away][:players][:number]]
   jersey_numbers
 end
 

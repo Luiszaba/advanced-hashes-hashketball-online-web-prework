@@ -173,11 +173,9 @@ teams = [game_hash[:home][:team_name], game_hash[:away][:team_name]]
 teams
 end
 
-def player_numbers
-  jersey_numbers = []
-  charlotte_numbers = []
-  if game_hash[:home][:players].include?(:number)
-    puts jersey_numbers << [:number]
+def player_numbers(numbers)
+  if game_hash[:home][:players].values.collect |stats|
+    game_hash[:home][:players].values?(stats)
   elsif
   game_hash[:away][:players].include?(:number)
   puts charlotte_numbers << [:number]

@@ -162,4 +162,6 @@ end
 def team_colors(jersey_colors)
   if game_hash[:home][:colors].include?(jersey_colors)
     game_hash[:home][:colors][jersey_colors]
+  else
+  end
 end

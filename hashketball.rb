@@ -167,3 +167,6 @@ def team_colors(jersey_colors)
     game_hash[:away][:colors]
   end
 end
+
+def team_names(org_name)
+  if game_hash[]

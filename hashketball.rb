@@ -4,7 +4,7 @@ def game_hash
    {
       home: {
       team_name: "Brooklyn Nets",
-      colors: ["black", "white"],
+      colors: ["Black", "White"],
       players: {
       
       "Alan Anderson" => {
@@ -61,7 +61,7 @@ def game_hash
   },
   away: {
       team_name: "Charlotte Hornets",
-      colors: ["turcoise", "purple"],
+      colors: ["Turcoise", "Purple"],
       players: {
       
       "Jeff Adrien" => {

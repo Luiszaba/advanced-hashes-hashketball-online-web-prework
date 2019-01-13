@@ -160,10 +160,10 @@ def shoe_size(players_shoe_size)
 end
 
 def team_colors(jersey_colors)
-  if game_hash[:home].value? (jersey_colors)
+  if game_hash[:home].value? (jersey_colors).capitalize
     game_hash[:home][:colors]
     elsif
-    game_hash[:away].value? (jersey_colors)
+    game_hash[:away].value? (jersey_colors).capitalize
     game_hash[:away][:colors]
   end
 end

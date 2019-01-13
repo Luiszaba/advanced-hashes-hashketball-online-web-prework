@@ -168,7 +168,7 @@ def team_colors(jersey_colors)
   end
 end
 
-def team_names(org_names)
-org_names = game_hash[:home][:team_name].include([:away][:team_name])
-org_names
+def team_names(teams)
+teams = game_hash[:home][:team_name] << [:away][:team_name]
+teams
 end

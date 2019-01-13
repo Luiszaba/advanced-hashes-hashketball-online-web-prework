@@ -173,7 +173,7 @@ teams = [game_hash[:home][:team_name], game_hash[:away][:team_name]]
 teams
 end
 
-def player_numbers
+def player_numbers(jersey_numbers)
   brookln_numbers = [game_hash[:home][:players][:number]
   charlotte_numbers = [game_hash[:away][:players][:number]
   jersey_numbers = [brookln_numbers + charlotte_numbers]

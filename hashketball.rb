@@ -186,8 +186,9 @@ def player_numbers(teams)
     end
   end
     
-def big_shoe_rebounds()
-  if game_hash[:home].value? ()
+def player_stats(all_stats)
+  all_stats = [game_hash[:home][:players], game_hash[:away][:players]]
+end
     
     
     

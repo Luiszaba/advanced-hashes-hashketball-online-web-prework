@@ -173,7 +173,7 @@ teams = [game_hash[:home][:team_name], game_hash[:away][:team_name]]
 teams
 end
 
-def player_numbers(numbers)
+def player_numbers(stats)
   if game_hash[:home][:team_name][:players].collect do |player, stats|
     stats.value.first
   elsif
@@ -181,6 +181,3 @@ def player_numbers(numbers)
     stats.value.first
 end
 end
-
-
-

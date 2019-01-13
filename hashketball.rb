@@ -175,9 +175,9 @@ end
 
 def player_numbers(stat_numbers)
   if game_hash[:home][:players][:numbers].include?(stat_numbers)
-    game_hash[:home][:players][:numbers]
+    game_hash[:home][:players][:numbers].sort
     elsif
     game_hash[:away][:players][:numbers].include?(stat_numbers)
-    game_hash[:away][:players][:numbers]
+    game_hash[:away][:players][:numbers].sort
     end
   end

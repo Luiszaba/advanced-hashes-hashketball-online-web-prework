@@ -172,3 +172,7 @@ def team_names
 teams = [game_hash[:home][:team_name], game_hash[:away][:team_name]]
 teams
 end
+
+def players_numbers
+  jersey_numbers = [game_hash[:home][:players][:number]], game_hash[:away][:players][:number]]
+  jersey_numbers

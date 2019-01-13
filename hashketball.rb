@@ -188,7 +188,7 @@ def player_numbers(teams)
     
 def player_stats(all_stats)
   all_stats = [game_hash[:home][:players], game_hash[:away][:players]]
-  all_stats.flatten
+  all_stats
 end
     
     

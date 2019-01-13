@@ -151,7 +151,7 @@ end
 end
 
 def shoe_size(players_shoe_size)
-  if game_hash[:team][:players][:shoe].include?(players_shoe_size)
+  if game_hash[:home][:players][:shoe].include?(players_shoe_size)
     game_hash[:home][:players][players_shoe_size][:shoe]
   elsif 
   game_hash[:away][:players][:shoe].include?(players_shoe_size)

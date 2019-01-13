@@ -187,7 +187,7 @@ def player_numbers(teams)
   end
     
 def player_stats(all_stats)
-  all_stats = [game_hash[:home][:players], game_hash[:away][:players]]
+  all_stats = [game_hash[:home][:players]<< [:name], game_hash[:away][:players] << [:name]]
 end
     
     

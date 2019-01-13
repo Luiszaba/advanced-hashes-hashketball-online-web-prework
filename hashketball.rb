@@ -187,7 +187,8 @@ def player_numbers(teams)
   end
     
 def player_stats(all_stats)
-  if game_hash[:home][:players].each do 
+  game_hash[:home][:players].each do |stats|
+  stats.values  
 end
     
     

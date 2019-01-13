@@ -168,11 +168,7 @@ def team_colors(jersey_colors)
   end
 end
 
-def team_names(org_name)
-  if game_hash[:home][:team_names] == (org_name)
-    game_hash[:home][:team_names]
-    elsif
-    game_hash[:away][:team_names] == (org_name)
-    game_hash[:away][:team_names]
-  end
+def team_names(org_names)
+org_names = game_hash[:home][:team_name].include([:away][:team_name])
+org_names
 end

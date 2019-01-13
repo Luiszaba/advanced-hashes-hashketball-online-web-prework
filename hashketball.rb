@@ -174,7 +174,7 @@ teams
 end
 
 def player_numbers
-  brookln_numbers = [game_hash[:home][:players][:number], game_hash[:away][:players][:number]]
+  brookln_numbers = [game_hash[:home][:players][:number], ]
   charollete_numbers = []
 end
 

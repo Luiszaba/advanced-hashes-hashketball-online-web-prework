@@ -175,9 +175,9 @@ end
 
 def player_numbers(stat_numbers)
   if game_hash[:home][:players].value? (stat_numbers)
-    game_hash[:home][:players][stat_numbers][:numbers]
+    game_hash[:home][:players][:numbers]
     elsif
     game_hash[:away][:players].value? (stat_numbers)
-    game_hash[:away][:players][stat_numbers][:numbers]
+    game_hash[:away][:players][:numbers]
     end
   end

@@ -180,6 +180,6 @@ def player_numbers(players_numbers)
     game_hash[:away][:players].value? (players_numbers)
     game_hash[:away][:players][:numbers]
     end
+  end
     players_numbers
   end
-end

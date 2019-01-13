@@ -174,10 +174,11 @@ teams
 end
 
 def player_numbers(numbers)
-  if game_hash[:home][:players].collect do |players, stats|
+  if game_hash[:home][:team_name][:players].collect do |player, stats|
     stats.value.first
   elsif
-  game_hash[:away][:players].collect do |players, stats|
+  game_hash[:away][:team_name][:players].collect do |player, stats|
+    stats.value.first
 end
 end
 

@@ -176,3 +176,7 @@ end
 def players_numbers
   jersey_numbers = [game_hash[:home][:players][:number]], game_hash[:away][:players][:number]]
   jersey_numbers
+end
+
+
+

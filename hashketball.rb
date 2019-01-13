@@ -180,7 +180,7 @@ def player_numbers(teams)
       elsif
       game_hash[:away].value? (teams)
       game_hash[:away][:players].map do |names, stats|
-        stats.values.first
+        stats[:number]
       end
     end
   end

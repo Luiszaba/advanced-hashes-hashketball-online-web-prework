@@ -174,7 +174,14 @@ teams
 end
 
 def player_numbers(jersey_numbers)
-  if game_hash[:home][:players].value? ()
+  jersey_numbers = []
+  charlotte_numbers = []
+  if game_hash[:home][:players].include?(:number)
+    puts jersey_numbers << [:number]
+  elsif
+  game_hash[:away][:players].include?(:number)
+  puts charlotte_numbers << [:number]
+end
 end
 
 

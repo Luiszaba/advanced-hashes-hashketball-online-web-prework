@@ -61,7 +61,7 @@ def game_hash
   },
   away: {
       team_name: "Charlotte Hornets",
-      colors: ["Turcoise", "Purple"],
+      colors: ["Turqouise", "Purple"],
       players: {
       
       "Jeff Adrien" => {

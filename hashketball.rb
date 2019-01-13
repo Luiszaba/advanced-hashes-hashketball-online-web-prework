@@ -195,6 +195,15 @@ def player_stats (name)
 end
     
 
+def big_shoe_rebounds
+  big_boy=game_hash[:home][:players].max_by { |name, stats| stats[:shoe] }.first
+  if game_hash[:home][:players].include?(big_boy)
+    game_hash[:home][:players][big_boy][:rebounds]
+  elsif game_hash[:away][:players].include?(big_boy)
+    game_hash[:away][:players][big_boy][:rebounds]
+  end
+end
+
 
 
 

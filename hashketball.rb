@@ -173,13 +173,13 @@ teams = [game_hash[:home][:team_name], game_hash[:away][:team_name]]
 teams
 end
 
-def player_numbers(players_numbers)
-  if game_hash[:home][:players].value? (players_numbers)
-    game_hash[:home][:players][:numbers]
-    elsif
-    game_hash[:away][:players].value? (players_numbers)
-    game_hash[:away][:players][:numbers]
-    end
-  end
-    players_numbers
-  end
+def player_numbers(teams)
+  if game_hash[:home].value? (teams)
+    
+    
+    
+    
+    
+    
+    
+    

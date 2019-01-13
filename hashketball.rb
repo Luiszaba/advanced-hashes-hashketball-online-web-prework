@@ -174,7 +174,7 @@ teams
 end
 
 def player_numbers(numbers)
-  if game_hash[:home][:players].values.collect |stats|
+  if game_hash[:home][:players].values.collect do |stats|
     game_hash[:home][:players].values?(stats)
   elsif
   game_hash[:away][:players].include?(:number)

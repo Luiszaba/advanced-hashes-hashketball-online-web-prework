@@ -189,7 +189,6 @@ def player_numbers(teams)
 def player_stats(name)
   if game_hash[:home][:players].include?(name)
   game_hash[:home[:players]["#{name}"]
-end
   elsif game_hash[:away][:players].include?(name)
   game_hash[:away][:players]["#{name}"]
 end

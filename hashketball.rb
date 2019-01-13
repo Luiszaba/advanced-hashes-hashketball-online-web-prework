@@ -176,7 +176,7 @@ end
 def player_numbers(stat_numbers)
   if game_hash[:home][:players].collect do |player, stat_numbers|
     stat_numbers.value.first
-  else
+  elsif
   game_hash[:away][:players].collect do |player, stats_numbers|
     stat_numbers.value.first
 end

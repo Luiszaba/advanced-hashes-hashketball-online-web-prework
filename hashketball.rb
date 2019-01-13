@@ -177,6 +177,13 @@ def player_numbers(teams)
   if game_hash[:home].value? (teams)
     game_hash[:home][:players].map do |names, stats|
       stats.values.first
+      elsif
+      game_hash[:away].value? (teams)
+      game_hash[:away][:players].map do |names, stats|
+        stats.values.first
+      end
+    end
+    
     
     
     

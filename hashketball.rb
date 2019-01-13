@@ -173,7 +173,7 @@ teams = [game_hash[:home][:team_name], game_hash[:away][:team_name]]
 teams
 end
 
-def player_numbers(jersey_numbers)
+def player_numbers
   jersey_numbers = []
   charlotte_numbers = []
   if game_hash[:home][:players].include?(:number)

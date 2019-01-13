@@ -174,8 +174,7 @@ teams
 end
 
 def player_numbers(jersey_numbers)
-  jersey_numbers = [game_hash[:home][:players][:number], game_hash[:away][:players][:number]]
-  jersey_numbers
+  if game_hash[:home][:players].value? ()
 end
 
 

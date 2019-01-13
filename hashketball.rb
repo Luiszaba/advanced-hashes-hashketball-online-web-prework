@@ -174,11 +174,10 @@ teams
 end
 
 def player_numbers(numbers)
-  if game_hash[:home][:players].collect do |name, stats|
-    name.value.first
+  if game_hash[:home][:players].collect do |players, stats|
+    stats.value.first
   elsif
-  game_hash[:away][:players].include?(:number)
-  puts charlotte_numbers << [:number]
+  game_hash[:away][:players].collect do |players, stats|
 end
 end
 

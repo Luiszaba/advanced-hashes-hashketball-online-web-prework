@@ -186,15 +186,13 @@ def player_numbers(teams)
     end
   end
     
-def player_stats(name)
+def player_stats (name)
   if game_hash[:home][:players].include?(name)
-  game_hash[:home[:players]["#{name}"]
+   game_hash[:home][:players]["#{name}"]
   elsif game_hash[:away][:players].include?(name)
-  game_hash[:away][:players]["#{name}"]
+   game_hash[:away][:players]["#{name}"]
+  end
 end
-end
-
-
     
     
     
